@@ -1,0 +1,16 @@
+﻿==================================
+SEJA BEM-VINDO AO CURSOEMVIDEO.COM
+Cursos GRATIS feitos com QUALIDADE
+==================================
+Essa aula faz parte de um pacote do Curso de Java Básico, criado pelo Prof. Gustavo Guanabara. 
+
+A chave para o bom aprendizado e sempre a PRATICA, entao pratique muito e nao deixe de acompanhar todas as aulas disponiveis no site abaixo:
+------------------------------------------------
+www.cursoemvideo.com/course/java-basico/
+------------------------------------------------
+Todas as aulas sao gratuitas, mas possuem o direito autoral reservado  ao autor, Gustavo Guanabara.
+
+Todos os testes praticos feitos durante a aula estao na pasta AULA-PRATICA.
+Todos os exercicios propostos pelo professor estao na pasta EXERCICIOS-PROPOSTOS.
+
+BONS ESTUDOS!

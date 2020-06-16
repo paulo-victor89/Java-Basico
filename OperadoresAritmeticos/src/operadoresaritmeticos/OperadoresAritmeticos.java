@@ -22,7 +22,7 @@ public class OperadoresAritmeticos {
         System.out.println("A media entre os valores é: " + m);       
          */
 
-        /*  Operadore Unários
+ /*  Operadore Unários
         
             ++ incremento  a ++ a = a + 1
             -- decremento  a -- a = a -1
@@ -34,8 +34,7 @@ public class OperadoresAritmeticos {
         System.out.println("Soma numero + valor  " + valor);
         System.out.println("Faz o incremento ou decremento do numero  " + numero);
          */
-        
-        /*  Operadore de atribuição
+ /*  Operadore de atribuição
         
             += somar e atribuir  a+=b -> a = a + b
             -= subtrair e atribuir  a-=b -> a = a - b
@@ -52,9 +51,8 @@ public class OperadoresAritmeticos {
         System.out.println("O valor 4 recebeu 4 * 2 =  " + mult);
         div /=2; // x = x / 2
         System.out.println("O valor 4 recebeu 4 / 2 = " + div);
-        */
-        
-        /* Arredondamento de numeros 
+         */
+ /* Arredondamento de numeros 
         
         float v = 8.5f;
         int aredondadoBaixo = (int) Math.floor(v);
@@ -66,14 +64,14 @@ public class OperadoresAritmeticos {
         
             //No round se numero > .5 aredonda para cima
             //Se numero < .5 arredonda para baixo
-        */
-        /* Numero randomico    
+         */
+ /* Numero randomico    
             random() numero entre 0.0 e 1.0 
             Escolhendo o intervalo de 5 ate 10
             5 + Math.random() * (10-5)
             para qualquer intevalo desejado basta trocas os valores.
-        */
-        
+         */
+ 
         double aleatorio = Math.random();
         int intervalo = (int)(5 + aleatorio * (10-5));
         System.out.println("Valor gerado aleatoriamente ente 0 e 1: "+ aleatorio);

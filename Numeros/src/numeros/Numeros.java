@@ -25,9 +25,9 @@ public class Numeros {
             System.out.print("Digite um numero:");
             numero = teclado.nextInt();
             soma+= numero;
-            System.out.print("Quer continuar ? [Sim/Não] ");
+            System.out.print("Quer continuar ? [S/N] ");
             resposta = teclado.next();
-        }while(resposta.equals("Sim"));
+        }while(resposta.equals("S"));
         System.out.println("A soma dos valores digitados e: " + soma);
     }
     

@@ -54,8 +54,17 @@ public class telaIdade extends javax.swing.JFrame {
         txtAnoNascimento.setModel(new javax.swing.SpinnerNumberModel(1900, 1900, 2500, 1));
 
         btnCalculadora.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
-        btnCalculadora.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/calc.png"))); // NOI18N
+        btnCalculadora.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pvictor/cursoemvideo/imagens/calc.png"))); // NOI18N
         btnCalculadora.setText("Calcular");
+        btnCalculadora.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+                btnCalculadoraAncestorRemoved(evt);
+            }
+        });
         btnCalculadora.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCalculadoraActionPerformed(evt);
@@ -68,6 +77,15 @@ public class telaIdade extends javax.swing.JFrame {
         lblIdade.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         lblIdade.setForeground(new java.awt.Color(51, 51, 51));
         lblIdade.setText("0");
+        lblIdade.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+                lblIdadeAncestorAdded(evt);
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/usuario.png"))); // NOI18N
 
@@ -144,6 +162,13 @@ public class telaIdade extends javax.swing.JFrame {
         lblIdade.setText(Integer.toString(idade));
     }//GEN-LAST:event_btnCalculadoraActionPerformed
 
+    private void lblIdadeAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_lblIdadeAncestorAdded
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblIdadeAncestorAdded
+
+    private void btnCalculadoraAncestorRemoved(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_btnCalculadoraAncestorRemoved
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnCalculadoraAncestorRemoved
     /**
      * @param args the command line arguments
      */
